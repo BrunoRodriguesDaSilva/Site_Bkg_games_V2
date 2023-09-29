@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(85, 12, 12, 0.507);
+  }
+
+.barraCabecalho {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+.logo {
+    height: 70px;
+    width: 170px;
+    margin: 10px 5%;
+    background-color: rgb(138, 138, 138);
+}
+
+.listaDeIcones {
+    height: 100%;
+    width: 50%;
+    margin-right: 50px;
+    display: flex;
+    list-style: none;
+}
+
+.icones {
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+}
+
+
+.link {
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.link:hover {
+    transition: all ease-in-out 1s;
+    transform: scale(1.2);
+    color: whitesmoke;
+    font-size: 22px;
+}

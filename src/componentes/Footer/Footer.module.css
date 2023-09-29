@@ -1,0 +1,67 @@
+.footer {
+    height: 100%;
+    width: 100%;
+    padding: 0 80px;
+    color: whitesmoke;
+    background-color: rgb(27, 27, 27);
+} /*section*/
+
+.contato_e_redes_sociais {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 100px 0;
+} /*div*/
+
+.contato {
+    width: 100%;
+    padding: 0 10%;
+} /*div dentro de contato_e_redes_sociais*/
+
+.botao_formulario {
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    background-color: whitesmoke;
+} /*botao dentro de contato*/
+
+.redes_sociais {
+    width: 100%;
+} /*div dentro de contato_e_redes_sociais*/
+
+.lista {
+    display: flex;
+} /*ul dentro de redes_sociais*/
+
+.icones {
+    list-style: none;
+    width: 100%;
+    margin-top: 65px;
+} /*li dentro de redes_sociais*/
+
+.imagem_do_icone {
+    height: 40px;
+    width: 40px;
+} /*img dentro de redes_sociais*/
+
+.direitos_do_site {
+    height: 100%;
+    width: 70%;
+    padding: 100px 0;
+    margin: auto;
+    text-align: center;
+} /*div*/
+
+.titulo {
+    font-size: 28px;
+    font-weight: lighter;
+    padding: 0 0 15px 0;
+} /*tags h1*/
+
+.texto_email {
+    font-weight: lighter;
+    padding-bottom: 50px;
+} /*tags p*/

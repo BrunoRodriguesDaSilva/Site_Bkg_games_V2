@@ -1,0 +1,89 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+/*Area Principal*/
+.Destaque            {
+    height: 100%;
+    width: 100%;
+    padding: 200px 0 0 0;
+    display: flex;
+    color: whitesmoke;
+    background-color: #0c0c0c;
+}  /*section*/
+
+.banner_principal    {
+    height: 100%;
+    width: 70%;
+    padding: 0 5% 0 10%;
+}  /*div*/
+
+.img_principal       {
+    height: 100%;
+    width: 100%;
+}  /*imagem*/
+
+.descricao_principal {
+    height: 100%;
+    width: 30%;
+    position: relative;
+    top: -300px;
+    left: 100px;
+    background-color: #0c0c0cd2;
+    padding: 3%;
+}
+
+.subtitulo_principal {
+    padding-bottom: 50px;
+    font-weight: lighter;
+}  /*h2*/
+
+.titulo_principal    {
+    padding-bottom: 10px;
+    font-weight: lighter;
+    font-size: 24px;
+}  /*h1*/
+
+.nome_principal      {
+    font-weight: lighter;
+    padding-bottom: 30px;
+}  /*p*/
+
+/*------------------------------------------*/
+
+/*Area Lateral*/
+.lista_lateral       {
+    height: 100%;
+    width: 20%;
+    list-style: none;
+}   /*ul*/
+
+.botoes_lateral      {
+    height: 100%;
+    width: 100%;
+    margin: 20px 0;
+}   /*li*/
+
+.botoes_lateral:hover {
+    background-color: #1c1c1c;
+}   /*li com hover*/
+
+.icone_lateral       {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}  /*link (tag a)*/
+
+.img_lateral  {
+    height: 100%;
+    width: 100%;
+    max-height: 90px;
+    max-width: 150px;
+    margin: 15px 15px;
+
+}  /*imagem*/
+
+.titulo_lateral      {
+    font-weight: lighter;
+}  /*h1*/
