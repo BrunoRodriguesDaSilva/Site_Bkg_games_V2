@@ -1,7 +1,8 @@
-import Destaque from "./componentes/Destaques"
 import Header from "./componentes/header"
-import Footer from "./componentes/Footer"
+import Destaque from "./componentes/Destaques"
+import Promocoes from "./componentes/Promocoes"
 import Analises from "./componentes/Analises"
+import Footer from "./componentes/Footer"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header />
       <Destaque />
+      <Promocoes />
       <Analises />
       <Footer />
     </>

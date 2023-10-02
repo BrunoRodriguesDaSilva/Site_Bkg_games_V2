@@ -18,7 +18,7 @@ const Destaque = () => {
     )
 
     return (
-        <section className={estilo.Destaque}>
+        <section id="Inicio" className={estilo.Destaque}>
             <div href="" className={estilo.banner_principal}>
                 <a href="">
                     <img className={estilo.img_principal} src={FinalFantasy} alt="" />
